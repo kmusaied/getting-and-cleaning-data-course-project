@@ -7,4 +7,5 @@
 * tBodyAcc_std_Y: Y acceleration signal standard deviation for body
 * tBodyAcc_std_Z: Z acceleration signal standard deviation for body
 * Activity: activity type (WALKING/WALKING_UPSTAIRS/WALKING_DOWNSTAIRS/SITTING/STANDING/LAYING). 
+* Subject: the subject number (volunteers). 
 * DataType: type of data (Train / Test). 
