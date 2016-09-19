@@ -35,7 +35,7 @@ x2$V1.1[x2$V1.1 == "5"] <- "STANDING"
 x2$V1.1[x2$V1.1 == "6"] <- "LAYING"
 
 #4.Appropriately labels the data set with descriptive variable names.
-colnames(x2) <- c("tBodyAcc-mean()-X","tBodyAcc-mean()-Y","tBodyAcc-mean()-Z","tBodyAcc-std()-X","tBodyAcc-std()-Y","tBodyAcc-std()-Z", "Activity","DataType")
+colnames(x2) <- c("tBodyAcc_mean_X","tBodyAcc_mean_Y","tBodyAcc_mean_Z","tBodyAcc_std_X","tBodyAcc_std_Y","tBodyAcc_std_Z", "Activity","DataType")
 
 #5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 x3<- x2 %>%
